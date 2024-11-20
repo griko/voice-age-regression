@@ -1,0 +1,6 @@
+scikit-learn
+pandas
+soundfile
+speechbrain
+torch
+torchaudio
