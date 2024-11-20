@@ -48,12 +48,12 @@ We advice to use the combined ANN model with extended features for best overall 
 You can install the package directly from GitHub:
 
 ```bash
-# Combined ANN model with extended features, also suitable for all other models
-pip install git+https://github.com/griko/voice-age-regression.git[full]  # MAE 6.93 years on the combined VoxCeleb2 + TIMIT test set
+# Combined ANN model with extended features, suitable for all other models
+pip install git+https://github.com/griko/voice-age-regression.git#egg=voice-age-regressor[full]  # MAE 6.93 years on the combined VoxCeleb2 + TIMIT test set
 # OR install a specific model variant
-pip install git+https://github.com/griko/voice-age-regression.git[svr-ecapa-voxceleb2]  # VoxCeleb2 SVR with base features, MAE 7.89 years
-pip install git+https://github.com/griko/voice-age-regression.git[svr-ecapa-librosa-voxceleb2]  # VoxCeleb2 SVR with extended features, MAE 7.88 years
-pip install git+https://github.com/griko/voice-age-regression.git[ann-ecapa-timit]  # TIMIT ANN with base features, MAE 4.95 years
+pip install git+https://github.com/griko/voice-age-regression.git#egg=voice-age-regressor[svr-ecapa-voxceleb2]  # VoxCeleb2 SVR with base features, MAE 7.89 years
+pip install git+https://github.com/griko/voice-age-regression.git#egg=voice-age-regressor[svr-ecapa-librosa-voxceleb2]  # VoxCeleb2 SVR with extended features, MAE 7.88 years
+pip install git+https://github.com/griko/voice-age-regression.git#egg=voice-age-regressor[ann-ecapa-timit]  # TIMIT ANN with base features, MAE 4.95 years
 ```
 
 ## Usage
